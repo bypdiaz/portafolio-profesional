@@ -1,0 +1,91 @@
+.experience {
+  background: var(--bg-main);
+}
+
+.timeline {
+  position: relative;
+
+  max-width: 900px;
+
+  margin: 4rem auto 0;
+}
+
+.timeline::before {
+  content: "";
+
+  position: absolute;
+
+  left: 20px;
+  top: 0;
+
+  width: 2px;
+  height: 100%;
+
+  background: rgba(255,255,255,.1);
+}
+
+.timeline-item {
+  position: relative;
+
+  padding-left: 70px;
+
+  margin-bottom: 3rem;
+}
+
+.timeline-dot {
+  position: absolute;
+
+  left: 11px;
+  top: 15px;
+
+  width: 20px;
+  height: 20px;
+
+  border-radius: 50%;
+
+  background: var(--color-accent);
+}
+
+.timeline-card {
+  background: rgba(255,255,255,.04);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  border-radius: 20px;
+
+  padding: 2rem;
+
+  transition: .3s ease;
+}
+
+.timeline-card:hover {
+  transform: translateY(-5px);
+
+  border-color: rgba(30,136,229,.4);
+}
+
+.timeline-date {
+  color: var(--color-accent-light);
+
+  font-size: .9rem;
+
+  font-weight: 600;
+}
+
+.timeline-card h3 {
+  color: var(--color-white);
+
+  margin: .8rem 0;
+}
+
+.timeline-card h4 {
+  color: var(--color-white);
+
+  margin-bottom: 1rem;
+}
+
+.timeline-card p {
+  color: var(--color-muted);
+
+  line-height: 1.8;
+}

@@ -1,0 +1,40 @@
+/* Hover suave */
+
+.hover-lift {
+  transition: all .3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-8px);
+}
+
+/* Escalado */
+
+.hover-scale {
+  transition: transform .3s ease;
+}
+
+.hover-scale:hover {
+  transform: scale(1.03);
+}
+
+/* Glow azul */
+
+.hover-glow {
+  transition: all .3s ease;
+}
+
+.hover-glow:hover {
+  box-shadow:
+    0 0 20px rgba(30,136,229,.3);
+}
+
+/* Botones */
+
+.button-hover {
+  transition: all .3s ease;
+}
+
+.button-hover:hover {
+  transform: translateY(-3px);
+}

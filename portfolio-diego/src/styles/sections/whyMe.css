@@ -1,0 +1,51 @@
+.why-me {
+  background: var(--color-secondary);
+}
+
+.why-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 2rem;
+
+  margin-top: 4rem;
+}
+
+.why-card {
+  padding: 2rem;
+
+  border-radius: 20px;
+
+  background: rgba(255,255,255,.04);
+
+  border: 1px solid rgba(255,255,255,.08);
+
+  transition: .3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+
+  border-color: rgba(30,136,229,.4);
+}
+
+.why-card h3 {
+  color: var(--color-white);
+
+  margin-bottom: 1rem;
+}
+
+.why-card p {
+  color: var(--color-muted);
+
+  line-height: 1.8;
+}
+
+@media (max-width: 1000px) {
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
