@@ -6,7 +6,7 @@ export const projectsData = [
 
     status: "En desarrollo",
 
-    image: "/images/projects/byp.jpg",
+    image: "images/projects/byp.jpg",
 
     description:
       "Plataforma para reservas, contratación de servicios y gestión de eventos.",
@@ -25,7 +25,7 @@ export const projectsData = [
 
     status: "Activo",
 
-    image: "/images/projects/portafolio.webp",
+    image: "images/projects/portafolio.webp",
 
     description:
       "Landing personal orientada a mostrar experiencia, proyectos y servicios.",
@@ -44,7 +44,7 @@ export const projectsData = [
 
     status: "Completado",
 
-    image: "/images/projects/gastos.webp",
+    image: "images/projects/gastos.webp",
 
     description:
       "Aplicación para calcular gastos compartidos y distribución de pagos.",

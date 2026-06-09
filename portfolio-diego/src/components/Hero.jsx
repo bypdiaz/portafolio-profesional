@@ -95,7 +95,7 @@ function Hero() {
             <div className="hero-card">
 
               <img
-                src="/images/profile.png"
+                src="images/profile.png"
                 alt="Diego Daniel Diaz"
                 className="hero-avatar"
               />
