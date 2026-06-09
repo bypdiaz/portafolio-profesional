@@ -31,29 +31,29 @@ export const featuredProject = {
   gallery: [
   {
     label: "Home",
-    image: "/images/projects/envidriera/home.png"
+    image: "images/projects/envidriera/home.png"
   },
   {
     label: "Producto",
-    image: "/images/projects/envidriera/product-card.png"
+    image: "images/projects/envidriera/product-card.png"
   },
   {
     label: "Carrito",
-    image: "/images/projects/envidriera/carrito.png"
+    image: "images/projects/envidriera/carrito.png"
   },
  
   {
     label: "Mercado Pago",
-    image: "/images/projects/envidriera/mp.png"
+    image: "images/projects/envidriera/mp.png"
   },
   {
     label: "Compra Exitosa",
-    image: "/images/projects/envidriera/compra-exitosa.png"
+    image: "images/projects/envidriera/compra-exitosa.png"
   },
 
   {
     label: "Login",
-    image: "/images/projects/envidriera/login.png"
+    image: "images/projects/envidriera/login.png"
   },
  
 ]
