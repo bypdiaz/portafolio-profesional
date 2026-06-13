@@ -22,7 +22,7 @@ function Hero() {
             Diego Daniel Diaz
           </h1>
 
-          <p>
+          <p className="info-card">
             Técnico en Desarrollo de Aplicaciones Informáticas
             con experiencia en logística, administración y
             operaciones industriales. Desarrollo soluciones

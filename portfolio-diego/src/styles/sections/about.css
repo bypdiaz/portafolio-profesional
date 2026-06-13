@@ -40,6 +40,8 @@
   color: var(--color-muted);
 
   line-height: 1.8;
+
+  text-align: justify;
 }
 
 .about-story {
@@ -62,6 +64,8 @@
   line-height: 1.9;
 
   margin-bottom: 1.5rem;
+
+  text-align: justify;
 }
 
 @media (max-width: 900px) {

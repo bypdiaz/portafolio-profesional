@@ -49,6 +49,12 @@
   font-size: 1.15rem;
 
   line-height: 1.8;
+
+  
+}
+
+.info-card{
+  text-align: justify;
 }
 
 .hero-buttons {

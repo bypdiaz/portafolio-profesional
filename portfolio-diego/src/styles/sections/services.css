@@ -42,6 +42,8 @@
   line-height: 1.8;
 
   margin-bottom: 1.5rem;
+
+  text-align: justify;
 }
 
 .service-card ul {

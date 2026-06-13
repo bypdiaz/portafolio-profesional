@@ -3,6 +3,7 @@ import "../styles/layout/navbar.css";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,7 +23,14 @@ function Navbar() {
           DD
         </div>
 
-        <nav>
+        <button
+          className="menu-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          {menuOpen ? "✕" : "☰"}
+        </button>
+
+        <nav className={menuOpen ? "nav-open" : ""}>
           <ul className="navbar-links">
             <li><a href="#about">Sobre mí</a></li>
             <li><a href="#experience">Experiencia</a></li>
